@@ -58,7 +58,8 @@ export default function DashboardNav() {
     { path: '/orders', label: 'Orders', icon: Calendar },
     { path: '/analytics', label: 'Analytics', icon: BarChart3 },
     { path: '/emails', label: 'Emails', icon: Mail },
-    { path: '/community', label: 'Community', icon: Users },
+    { path: '/community', label: 'Community', icon: MessageSquare },
+    { path: '/marketplace', label: 'Marketplace', icon: Store },
   ];
 
 

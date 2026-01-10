@@ -71,6 +71,7 @@ import CollectionStorefront from '@/pages/CollectionStorefront';
 import SocialMediaAnalytics from '@/pages/SocialMediaAnalytics';
 import CreatorRights from '@/pages/CreatorRights';
 import Community from '@/pages/Community';
+import Marketplace from '@/pages/Marketplace';
 
 
 
@@ -162,6 +163,7 @@ function App() {
               <Route path="/email-campaigns" element={<ProtectedRoute><EmailCampaigns /></ProtectedRoute>} />
               <Route path="/social-analytics" element={<ProtectedRoute><SocialMediaAnalytics /></ProtectedRoute>} />
               <Route path="/community" element={<ProtectedRoute><Community /></ProtectedRoute>} />
+              <Route path="/marketplace" element={<ProtectedRoute><Marketplace /></ProtectedRoute>} />
 
 
 
